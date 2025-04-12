@@ -3,21 +3,8 @@ import java.util.Scanner;//TIP To <b>Run</b> code, press <shortcut actionId="Run
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String nombreEmpleado = "";
-        String documentoEmpleado = "";
-        double salarioBruto = 0;
-        double salarioNeto = 0;
-        double valorHora =0;
-        double cantidadHoras;
-        double deduccionSalud;
-        double deduccionPension;
-        double horasExtra = 0;
-        double valorHorasExtra =0;
-        double bonificacion =0;
-        double fondoSolidaridadPensional= 0;
-        double valorRetencionFuente =0;
-        double auxilioTransporte = 0;
-        double salariominimo =0;
+        String nombreEmpleado ="", documentoEmpleado="";
+        double salarioBruto =0, salarioNeto =0, cantidadHoras = 0, deduccionSalud = 0, deduccionPension =0, horasExtra =0, valorHorasExtra =0, bonificacion =0, fondoSolidaridadPensional =0, valorRetencionFuente =0, auxilioTransporte =0, salariominimo =0;
 
         System.out.println("Ingrese el nombre del empleado");
         nombreEmpleado = sc.nextLine();
